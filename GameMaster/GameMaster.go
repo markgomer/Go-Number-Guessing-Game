@@ -1,15 +1,15 @@
-package main
+package GameMaster
 
 import (
 	"bufio"
-	"math/rand/v2"
 	"fmt"
+	"math/rand/v2"
 	"os"
 	"strconv"
 	"strings"
 )
 
-func main() {
+func RunGame() {
     fmt.Println("GUESS YAR NUMBAR")
     fmt.Println("I'm gonna pick a numbar from 0 to 100 and ya hav to guess!")
     fmt.Println("Other wise yer life's ovar!")
